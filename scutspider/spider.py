@@ -52,24 +52,24 @@ class XSJWSpider(object):
     def get_search_data(self):
         self.post_data = {  # 测试用
             'fwzt': 'cx',
-            'xqh_id': '1',
-            'xnm': '2020',
-            'xqm': '12',
-            'cdlb_id': '02',
+            'xqh_id': '1',  # 校区
+            'xnm': '2020',  # 学年
+            'xqm': '12',  # 学期
+            'cdlb_id': '02',  # 场地类别
             'cdejlb_id': '',
             'qszws': '',
             'jszws': '',
             'cdmc': '',
             'lh': '',
-            'jyfs': '0',
+            'jyfs': '0',  # 借用方式？
             'cdjylx': '',
-            'zcd': '8192',
-            'xqj': '1',
+            'zcd': '8192',  # 周次?
+            'xqj': '1',  # 星期
             'jcd': '3',
             '_search': 'false',
             'nd': '1622266254246',
-            'queryModel.showCount': '15',
-            'queryModel.currentPage': '1',
+            'queryModel.showCount': '100',  # 每页显示数
+            'queryModel.currentPage': '1',  # 当前页
             'queryModel.sortName': 'cdbh',
             'queryModel.sortOrder': 'asc',
             'time': '8',
