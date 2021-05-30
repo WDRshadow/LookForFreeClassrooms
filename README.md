@@ -26,7 +26,7 @@ python爬虫
 4.  利用命令行打开即可
 
     ```
-    $ python3 ./LFFC_SCUT_spider.py
+    $ python3 ./main.py
     ```
 
     
