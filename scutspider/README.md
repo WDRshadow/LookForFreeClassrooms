@@ -2,7 +2,7 @@
 
 #### 介绍
 
-一个用python写的程序，利用python网络爬虫查询华南理工大学空闲课室，该软件用于获取主程序后端数据。也可以作为程序使用，或修改后可作为获取华南理工大学需要统一验证登陆后才能获取的内容（可保存统一验证登陆和教务系统的cookie）。
+一个用python写的程序，利用python网络爬虫查询华南理工大学空闲课室，该软件用于获取主程序后端数据。也可以作为独立程序使用，或修改后可作为获取华南理工大学需要统一验证登陆后才能获取的内容（可保存统一验证登陆和教务系统的cookie）。
 
 #### 软件架构
 
@@ -18,7 +18,7 @@ python爬虫
    ```
    $ pip3 install requests
    $ pip3 install PyExecJS
-   $ pip3 install beautifulsoup4
+   $ pip3 install bs4
    ```
 
 3.  下载或克隆源码
@@ -51,9 +51,11 @@ python爬虫
 
 #### 参与贡献
 
-1. [WDRshadow]: Https://github.com/WDRshadow
+1. [WDRshadow][1]
 
-2. [ChuXuan_windy]: Https://github.com/ChuXuan_windy
+2. [ChuXuan_windy][2]
 
+[1]: Https://github.com/WDRshadow
+[2]: Https://github.com/ChuXuan_windy
    
 
