@@ -111,7 +111,7 @@ class XSJWSpider(object):
         a = str(int(self.post_data['xnm']) - 2000)  # 学年相关 2
         b = xqm_dict[self.post_data['xqm']]  # 学期相关 1
         c = xqh_dict[self.post_data['xqh_id']]  # 校区相关 1
-        d = str.upper(hex(int(math.log(int(self.post_data['zcd']), 2) + 1)))[2]  # 周数相关,16进制 1
+        d = str(math.log(int(self.post_data['zcd']), 2) + 1).zfill(2)  # 周数相关，保留两位 2
         e = self.post_data['xqj']  # 星期相关 1
         f = jcd_dict[self.post_data['jcd']]  # 节次相关 1
         return a + b + c + d + e + f
